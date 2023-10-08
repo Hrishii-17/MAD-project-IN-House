@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".disassembly"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:textColor="@color/black"
+            android:padding="16dp"
+            android:text="Disassembly"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:text="1.Laptop disassembly and Cleaning"
+            android:textSize="20sp" />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <VideoView
+                android:id="@+id/disassembly_lap"
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="196dp" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:background="@color/light_blue"
+            android:textStyle="bold"
+            android:text="This video explains how to disassemble a Dell laptop for cleaning and Components upgrading.Please follow the instructions carefully to prevent any damage to the device."/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:text="2.Table fans Assembly"
+            android:textSize="20sp" />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <VideoView
+                android:id="@+id/disassembly_mob"
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="196dp" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:background="@color/light_blue"
+            android:textStyle="bold"
+            android:text="This video explains how to disassemble a Smartphone by yourself.Please follow the instructions carefully to prevent any damage to the device."/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back2"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:padding="16dp"
+            android:text="Plumbing Services"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Leak Repairs"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:onClick="onClickLeak"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Drain Cleaning"
+            android:onClick="onClickDrain"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Faucet Repairs"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:onClick="onClickFaucet"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Toilet Repairs"
+            android:onClick="onClickToilet"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="16dp" />
+    </LinearLayout>
+</ScrollView>
